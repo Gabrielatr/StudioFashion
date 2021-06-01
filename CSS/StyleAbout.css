@@ -1,0 +1,122 @@
+
+#Início{
+	border-top: 3px solid black;
+	border-bottom: 2px solid black;
+	height: 145px;
+}
+#busca{
+	border-radius: 25px;
+	width: 300px;
+	height: 30px;
+	border-color: #000;
+	background-color: #000;
+	margin-top: 30px;
+	color: orange;
+}
+		
+#barra{
+	margin-left: 15px;
+	text-align: center;
+	margin: 10px;
+	margin-top: 15px;
+	height: 15px;
+	display: inline;
+}
+
+#barra ul {
+	font-family: Arial, Georgia;	
+	font-size: 18px;
+	margin-top: 35px;
+}		
+#barra ul li a{
+	color: black;
+	margin: 0px 10px;
+	border-radius: 20%;
+}						
+#barra ul li a:hover{
+	font-weight: bold;
+	color: orange;			
+}				
+#barra ul li a:active{
+	color:  orange;
+}
+				
+.image{
+	background-image: url(https://s2.glbimg.com/koyreqzklXn7pm0a2wi7IhT9yAU=/607x426/smart/e.glbimg.com/og/ed/f/original/2018/08/28/recco_lingerie_capanha_california_dreaming_verap_2019_colecao_capsula_7.jpg);
+	height: 400px;
+}
+
+#links{
+	border: 1px solid transparent;
+	height: 47px;
+	word-spacing: 14rem;
+	text-align: center;
+	background: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+}
+#links ul li{
+	display: inline;
+	text-align: center;
+	color: black;
+	font-family: Georgia;
+	font-size: 21px;
+	list-style-type: none;
+}	
+#links a:link{
+	text-decoration: none;
+}	
+#links a:hover{
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#Catálogo table{
+	padding: 10px;
+	margin: 50px auto;
+}
+#Catálogo .nome{
+	font-size: 22px;
+	background-color: #fdd0a0;
+	text-align: center;
+	font-family: Georgia;
+	width: 100%;
+	height: 50px;
+	margin: 0px auto;
+}
+#Catálogo table tr td{
+	padding: 5px;
+	text-align: center;
+	margin-top: 20px;
+	font-family: Georgia;
+	font-size: 15px;
+	font-weight: 300;
+}
+	
+.img td img{
+	height: 270px;
+	padding: 10px;
+	border: 2px solid #E8E5DE;
+}
+	
+#final{
+	background-color: #111111;
+	padding: 15px;
+	font-size: 11px;
+	height: 165px;
+}
+#final table tr th{
+	padding: 15px 60px;
+	text-align: center;
+	color: #662978;
+	font-family: arial;
+}
+#final table tr td{
+	padding-right: 70px;
+	padding-left: 70px;
+	padding: 2px 60px;
+	text-align: center;
+	color: #51484F;
+	font-family: arial;
+}	
+#final .link{
+	color: #51484F;
+}	

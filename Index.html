@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Studio Fashion Online Store</title>
+
+	<meta charset="UTF-8">
+	<meta name="Desc" content="Loja online de vendas de roupas">
+	<meta name="Kwrd" content="Loja online, vender, comprar, roupas">
+	<meta name="author" content="Gabriela">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="CSS/StyleStore.css"/>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+</head>
+
+<body>
+
+<header id="Início">
+	<nav class="navbar navbar-default" role="navigation" style="background-color: white; height: 140px;">
+		<div class="container">
+
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#barra">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+
+				<img class="navbar-brand" src="imgs/Logo.png" style="height: 145px;"/>
+			</div> <!--end navbar-header-->
+			
+			<div id="barra" class="collapse navbar-collapse">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="Index.html">Menu</a></li>
+					<li><a href="About.html">Catálogo</a></li>
+					<li><a href="Contact.html">Sobre</a></li>
+					<li><a href="Index.html#promoção">Promoções</a></li>
+					<li><a href="Contact.html">Contato</a></li>	
+				</ul>
+				<form action="#" class="navbar-form navbar-right" role="search">
+					<div class="form-group">
+						<input type="text" class="form-control" id="busca" placeholder="O que você procura?">
+					</div>
+				</form>
+			</div> <!--end collapse-->
+		</div> <!--end container-->
+	</nav>
+</header>
+
+<main>
+<br>
+	<div class="carousel slide" data-ride="carousel" id="slideshow">
+		<div class="container">
+			<ol class="carousel-indicators">
+				<li data-target="#slideshow" data-slide-to="0" class="active"></li>
+				<li data-target="#slideshow" data-slide-to="1"></li>
+				<li data-target="#slideshow" data-slide-to="2"></li>
+			</ol>
+
+			<div class="carousel-inner" id="images" style="height: 570px;">
+				<div class="item active">
+					<img src="imgs/destaque-home.jpg" alt="slide0">
+				</div>
+				<div class="item">
+					<img src="imgs/imagem2.png" alt="slide1">
+				</div>
+				<div class="item">
+					<img src="imgs/destaque-home-2.jpg" alt="slide2">
+				</div>
+			</div>
+
+			<a href="#slideshow" class="left carousel-control" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left"></span>
+			</a>
+			<a href="#slideshow" class="right carousel-control" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right"></span>
+			</a>
+		</div> <!--end container-->
+	</div> <!--end carousel-->
+
+<br>
+
+<div id="bolas" class="row">
+	<div class="container text-center"> 
+		<div class="col-sm-2"><a href="Trabalho.html"><span class="glyphicon glyphicon-home" style="color: darkviolet;"></span></a></div>
+		<div class="col-sm-2"><a href="ContactFinal.html"><span class="glyphicon glyphicon-earphone" style="color: darkviolet;"></span></a></div>
+		<div class="col-sm-2"><a href="Aboutfinal.html"><span class="glyphicon glyphicon-shopping-cart" style="color: darkviolet;"></span></a></div>
+	</div>
+</div>
+	
+<div id="Catálogo">	<!--em alta-->
+	<div id="em alta">			
+		<table>
+			<th class="nome" colspan="4">EM ALTA</th>
+
+			<tr class="img">
+				<td><img src="https://i.pinimg.com/originals/74/0a/60/740a609ef32012d44a52de7acd708c29.jpg" alt="Conjunto Cropped/Shorts Natal" /></td>
+				<td><img src="https://i.pinimg.com/474x/16/34/45/16344590594cbf943237555f80b7efb8.jpg" alt="Macacão Feminino Natal 2020" /></td>
+				<td><img src="https://i.pinimg.com/originals/bd/13/8e/bd138eba6e3bb788e7c81007750eb5f0.jpg" alt="Short Branco Feminino 2020" /></td>
+				<td><img src="https://i.pinimg.com/originals/76/f6/de/76f6de252392a332be5c6d1173c3fd0b.jpg" alt="Camisa de Manga com Bolinhas" /></td>
+			</tr>
+			<tr class="desc">
+				<td>Conjunto Cropped/Shorts Natal</td>
+				<td>Macacão Feminino Natal 2020</td>
+				<td>Short Branco Feminino 2020</td>
+				<td>Camisa de Manga com Bolinhas</td>
+			</tr>
+			<tr class="value">
+				<td>€ 20,00</td>
+				<td>€ 35,00</td>
+				<td>€ 20,00</td>
+				<td>€ 25,00</td>
+			</tr>
+		</table>
+	</div> <!--end em alta-->
+	<div id="promoção" a name="promoção">	
+		<table>
+			<th class="nome" colspan="4">PROMOÇÃO</th>			
+			<tr class="img">
+				<td><img src="https://i.pinimg.com/564x/ce/a6/c4/cea6c4ebf0307ec8f43357ad1ba0ed18.jpg" alt="Camisa Social Masculina" /></td>
+				<td><img src="https://i.pinimg.com/originals/4a/c7/d9/4ac7d902fc56921beb0b4a6833af10f3.jpg" alt="Macacão Curto Feminino" /></td>
+				<td><img src="https://i.pinimg.com/564x/d3/c0/aa/d3c0aa50a2dd318e8931a39e12a9e7fa.jpg" alt="Conjunto Kids Meninos" /></td>
+				<td><img src="https://i.pinimg.com/564x/5d/66/50/5d6650ed46c6be09b0df4b87ead0d0cd.jpg" alt="Conjunto Kids Meninas" /></td>
+			</tr>		
+			<tr class="desc">
+				<td>Camisa Social Masculina</td>
+				<td>Macacão Curto Feminino</td>
+				<td>Conjunto Kids Meninos</td>
+				<td>Conjunto Kids Meninas</td>
+			</tr>		
+			<tr class="value">
+				<td>€ 25,00</td>
+				<td>€ 25,00</td>
+				<td>€ 23,00</td>
+				<td>€ 17,00</td>
+			</tr>				
+		</table>
+	</div>	
+</div> <!--end promoção-->
+
+<div id="fotos" class="row">
+	<div class="col-sm-3">
+		<img src="https://loveandloathingla.com/wp-content/uploads/2017/03/100EOS5D_4964.jpg" />
+	</div>
+	<div class="col-sm-3">
+		<img src="https://i.pinimg.com/originals/c0/f4/b6/c0f4b6a1d316b07d9e1f52cfd832615f.jpg" />
+	</div>
+	<div class="col-sm-3">	
+		<img src="https://s2.glbimg.com/koyreqzklXn7pm0a2wi7IhT9yAU=/607x426/smart/e.glbimg.com/og/ed/f/original/2018/08/28/recco_lingerie_capanha_california_dreaming_verap_2019_colecao_capsula_7.jpg" />
+	</div>
+	<div class="col-sm-3">
+		<img src="http://www.textilia.net/_arquivo/upload/galeria/26b94c77aa3a535d578f80d2af4b50ac.jpg">
+	</div>
+</div> <!--end fotos-->
+	
+<div id="email" style="background-image: url('imgs/rosas.png')">
+	<p><h2>Assine e entre na moda</h2></p>
+	<form action="#">
+		<div class="form-group text-center">
+			<input type="text" class="form-control" value="Insira o seu email aqui">
+		</div>
+	</form>
+	<input type="submit" class="btn btn-primary text-center" value="Assine já" style="background: purple; color:#51484F; height: 25px; width: 160px;">		
+</div> <!--end email-->
+</main>
+
+<footer>
+<div id="final">	
+	<table>
+		<tr>
+			<th>STUDIO FASHION</th>
+			<th>REDES SOCIAIS</th>
+			<th>CONTACTE-NOS</th>
+			<th>NOSSA LOJA</th>
+		</tr>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3111.838662740051!2d-9.13233368515986!3d38.74446436355017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd1932c73230c339%3A0xe6d0876dfcbd2a16!2sFashion%20Studio!5e0!3m2!1spt-BR!2spt!4v1606427466611!5m2!1spt-BR!2spt" width="350" height="150" frameborder="0" style="border:0; float: right; padding: 2px 50px;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>	
+		<tr>
+			<td><a href="Sobre.html" class="link">SOBRE NÓS</a></td>
+			<td><span class="fa fa-facebook" style="color: #662978; font-size: 25px;"></span></td>
+			<td>Tel.: 351 789 456</td>
+			<td>Lisboa, Portugal</td>
+		</tr>
+		<tr>
+			<td><a href="ContactFinal.html" class="link">CONTACTOS</a></td>
+			<td><span class="fa fa-twitter" style="color: #662978; font-size: 25px;"></span></td>
+			<td>EMAIL: studiofashion@gmail.com</td>
+		</tr>	
+		<tr>
+			<td><a href="Sobre.html" class="link">TRABALHE CONOSCO</a></td>
+			<td><span class="fa fa-instagram" style="color: #662978; font-size: 25px;"></span></td>
+		</tr>			
+	</table>
+</div>	
+</footer>
+</body>
+
+</html>
